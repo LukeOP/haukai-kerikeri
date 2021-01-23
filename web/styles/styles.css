@@ -270,6 +270,15 @@ th {
   text-align: left;
   font-size: 20px;
 }
+.contact{
+  width: 100%;
+}
+.contact th{
+  color: #ffb84e;
+}
+.contact td{
+  margin-bottom: 10px;
+}
 /* Footer Content */
 .footer {
   color: #edf0f1;
