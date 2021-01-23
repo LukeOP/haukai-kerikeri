@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haukai Restaurant Menu</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- Main header that is used across all the pages of our website -->
+    <header>
+        <a href="index.html" class="logo"><img id="logo" src="images/Koru_vector.svg" alt="Haukai Restaurant logo"></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="javascript:void(0);" class="hamburger" onclick="hiddenMenu()">
+            <img class="hamburger" src="images/hamburger.svg"></img>
+        </a>
+    </header>
+    <a class="small_menu" href="index.html">Home</a>
+    <a class="small_menu" href="menu.html">Menu</a>
+    <a class="small_menu" href="reservations.html">Reservations</a>
+    <a class="small_menu" href="contact.html">Contact</a>
+    <!-- Main content -->
+    <main>
+        <h1 class="page_heading" style="background-color: transparent;">Dining Menu</h1>
+        <div id="menu_list">
+            <ul>
+                <li><a href="#appetizers">Appetizers</a></li>
+                <li><a href="#mains">Mains</a></li>
+                <li><a href="#dessert">Dessert</a></li>
+                <li><a href="#beverages">Beverages</a></li>
+            </ul>
+        </div>
+        <div id="three_img">
+            <img class="img_3rd" id="appetizer_img" src="images/salmon_appetizer_450W.jpg" alt="Salmon appetizer dish">
+            <img class="img_3rd" id="mains_img" src="images/lamb_steak_450W.jpg" alt="Lamb steak main dish">
+            <img class="img_3rd" id="dessert_img" src="images/ice-cream_dessert_450W.jpg" alt="Ice cream dessert">
+        </div>
+        <div class="food_container">
+            <h2 id="appetizers"><u>Appetizers</u></h2><br>
+            <!--START OF APPETIZERS-->
+            <h3>Rewena Bread <span class="cost">10</span></h3>
+            <p>Traditional Māori bread.</p><br>
+
+            <h3>Paua Fritter <span class="cost">16</span></h3>
+            <p>Finely diced pieces of paua, served with a side salad and horopito dressing.</p><br>
+
+            <h3>Raw Fish <span class="cost">20</span></h3>
+            <p>Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions. </p><br>
+
+            <h3>Poached Salmon <span class="cost">22</span></h3>
+            <p>Salmon poached in an orange and pistachio glaze, served with rewena bread.</p><br>
+
+            <h3>Seafood Basket <span class="cost">25</span></h3>
+            <p>Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns.</p><br>
+        </div>
+
+        <div class="food_container">
+            <h2 id="mains"><u>Mains</u></h2><br><!-- START OF MAINS-->
+            <h3>Fish of the Day <span class="cost">25</span></h3>
+            <p>Beer battered fish and kumara fries, served with a side salad and homemade tartare.</p><br>
+
+            <h3>Mussels and Scallops <span class="cost">25</span></h3>
+            <p>Steamed mussel & scallop mousse, honey and soy broth.</p><br>
+
+            <h3>Seafood Chowder <span class="cost">30</span></h3>
+            <p>Creamy chowder filled with terakihi, prawn, hoki, scallops and mussels, served with flatbread.</p><br>
+
+            <h3>Pork Belly <span class="cost">30</span></h3>
+            <p>Slow cooked pork belly served on a bed of apple slaw with roasted kumara, and crispy noodle.</p><br>
+
+            <h3>Lamb Steak <span class="cost">33</span></h3>
+            <p>New Zealand Lamb coated in a kawakawa crumb, served with Dijon mustard glazed carrots, roasted butternut
+                squash and a mushroom Jus.</p><br>
+
+            <h3>Venison <span class="cost">33</span></h3>
+            <p>Venison crusted with Horopito, served with glazed plums, cabbage salad and red wine Jus.</p><br>
+        </div>
+
+        <div class="food_container">
+            <h2 id="dessert"><u>Dessert</u></h2><br>
+            <!--START OF DESSERTS-->
+            <h3>Kapiti Ice Cream <span class="cost">10</span></h3>
+            <p>Check for daily specials.</p><br>
+
+            <h3>Steam Pudding <span class="cost">12</span></h3>
+            <p>Golden syrup flavoured steam pudding, served with vanilla ice cream</p><br>
+
+            <h3>Mini Pavlova <span class="cost">16</span></h3>
+            <p>Mini Pavlova, served with kawakawa and lemon infused cream and fresh fruit. </p><br>
+
+            <h3>Banoffee Pie <span class="cost">16</span></h3>
+            <p>Toffee, fresh bananas and fresh cream. </p><br>
+        </div>
+
+        <div class="food_container">
+            <h2 id="beverages"><u>Beverages</u></h2>
+        </div>
+
+        <div class="w3-row" style="background-color: transparent;">
+            <div class="w3-half w3-container">
+                <div class="half_page">
+                    <h3 class="beverages-heading-left">Red</h3>
+                    <!--RED WINES-->
+                    <table class="beverages-left">
+                        <!--START OF BEVERAGES-->
+
+                        <tr>
+                            <th></th>
+                            <th>G/B</th>
+                        </tr>
+
+                        <tr>
+                            <td>Terrace Edge Pinot Noir, 2012, Wairarapa</td>
+                            <td>13/53</td>
+                        </tr>
+                        <tr>
+                            <td>Altitude Pinot Noir, 2010, Marlborough</td>
+                            <td>15/64</td>
+                        </tr>
+                        <tr>
+                            <td>Greystone Pinot Noir, 2012, Wairarapa</td>
+                            <td>17/73</td>
+                        </tr>
+                        <tr>
+                            <td>Terrace Edge, Syrah, 2012 Wairarapa</td>
+                            <td>13/53</td>
+                        </tr>
+                        <tr>
+                            <td>Altitude Syrah, 2010 Marlborough</td>
+                            <td>15/64</td>
+                        </tr>
+                        <tr>
+                            <td>Greystone Syrah, 2012, Wairarapa</td>
+                            <td>17/73</td>
+                        </tr>
+                        <tr>
+                            <td>Pegasus Bay Merlot, 2013, Waipara</td>
+                            <td>14/65</td>
+                        </tr>
+                        <tr>
+                            <td>Pegasus Bay Pinot Noir, 2013, Waipara</td>
+                            <td>110 (B)</td>
+                        </tr>
+                    </table>
+                    <h3 class="beverages-heading-left">White</h3>
+                    <!--WHITE WINES-->
+                    <table class="beverages-left">
+                        <tr>
+                            <th></th>
+                            <th>G/B</th>
+                        </tr>
+
+                        <tr>
+                            <td>Spade Oak Pinot Gris, 2011, Gisborne</td>
+                            <td>10/40</td>
+                        </tr>
+                        <tr>
+                            <td>Maude Pinot Gris, 2017, Otago</td>
+                            <td>11/49.5</td>
+                        </tr>
+                        <tr>
+                            <td>Charles Wiffen Chardonnay, 2013, Otago</td>
+                            <td>11/48</td>
+                        </tr>
+                        <tr>
+                            <td>Amisfield, Riesling, 2016, Otago</td>
+                            <td>12/53</td>
+                        </tr>
+                        <tr>
+                            <td>Lamont Riesling, 2010, Otago</td>
+                            <td>13/57</td>
+                        </tr>
+                        <tr>
+                            <td>Elephant Hill Viognier, 2013, Hawkes Bay</td>
+                            <td>12/55</td>
+                        </tr>
+                        <tr>
+                            <td>Folium Sauvignon Blanc, 2011, Marlborough</td>
+                            <td>11/52</td>
+                        </tr>
+                        <tr>
+                            <td>Billecart-Salmon Brut Reserve, France</td>
+                            <td>120 (B)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="w3-half w3-container">
+                <div class="half_page">
+                    <h3 class="beverages-heading-right">Beer and Cider</h3>
+                    <!--BEER AND CIDER-->
+                    <table class="beverages-right">
+                        <colgroup>
+                            <col span="1" style="width: 80%;">
+                            <col span="1" style="width: 20%;">
+                        </colgroup>
+
+                        <tr>
+                            <td>Garage Project range</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>Tuatara range</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>Panhead range</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Coopers Ale</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Heineken</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>Moa Cider</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Crooked Cider</td>
+                            <td>10</td>
+                        </tr>
+                    </table>
+                    <h3 class="beverages-heading-right">Non Alcoholic</h3>
+                    <!--NON ALCOHOLIC-->
+                    <table class="beverages-right">
+                        <colgroup>
+                            <col span="1" style="width: 80%;">
+                            <col span="1" style="width: 20%;">
+                        </colgroup>
+
+                        <tr>
+                            <td>Mineral water</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Soft drinks</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Juice</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Coffee</td>
+                            <td>4.5</td>
+                        </tr>
+                        <tr>
+                            <td>Tea</td>
+                            <td>3.5</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </main>
+    <!-- Footer that is used across all the pages of our website -->
+    <footer class="footer">
+        <ul>
+            <li><a href="sitemap.html">Sitemap</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Employee Login</a></li>
+        </ul>
+        <p>©Copyright 2021 Haukai Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+<script>
+    function hiddenMenu() {
+        var x = document.getElementsByClassName("small_menu");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            if (x[i].style.display === "block") {
+                x[i].style.display = "none";
+            } else {
+                x[i].style.display = "block";
+            }
+        }
+    }
+</script>
+
+</html>
