@@ -4,87 +4,50 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
+
 body {
   margin: 0;
 }
-footer,
-header,
-main,
-menu,
-nav,
-section {
-  display: block;
-}
-a {
-  background-color: transparent;
-  color: inherit;
-}
+
+
 img {
   border-style: none;
   vertical-align: middle;
 }
+
 html,
 body {
   font-family: Verdana, sans-serif;
   font-size: 15px;
   line-height: 1.5;
 }
+
 h1 {
   font-size: 36px;
 }
+
 h2 {
   font-size: 30px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Segoe UI", Arial, sans-serif;
-  font-weight: 400;
-  margin: 10px 0;
-}
-.w3-container:after,
-.w3-container:before,
-.w3-row:after,
-.w3-row:before,
-.w3-row-padding:after,
-.w3-row-padding:before,
-.w3-cell-row:before,
-.w3-cell-row:after,
-.w3-clear:after,
-.w3-clear:before,
-.w3-bar:before,
-.w3-bar:after 
-{
-  content: "";
-  display: table;
-  clear: both;
-}
 
-.w3-col,
-.w3-half,
-.w3-third,
-.w3-twothird,
-.w3-threequarter,
-.w3-quarter {
-  float: left;
-  width: 100%;
-}
+
+
 .w3-container {
   padding: 0.01em 16px;
 }
+
 .half_page {
   position: relative;
   width: 90%;
   left: 5%;
 }
+
 .w3-half {
   text-align: center;
 }
@@ -97,22 +60,27 @@ h6 {
   font-family: "roboto", sans-serif;
   font-weight: 300;
 }
+
 p {
   font-size: 20px;
 }
+
 main {
   margin: auto;
   max-width: 1400px;
 }
+
 /* NAVIGATION BAR */
 .hamburger {
   display: none;
 }
+
 li,
 a,
 button {
   text-decoration: none;
 }
+
 header {
   display: flex;
   justify-content: flex-end;
@@ -123,33 +91,41 @@ header {
   font-size: 21px;
   color: #edf0f1;
 }
+
 .logo {
   cursor: pointer;
   margin-right: auto;
   color: white;
 }
+
 #logo {
   max-height: 65px;
 }
+
 .nav_links {
   list-style: none;
 }
-  .nav_links li {
-    display: inline-block;
-    padding: 0px 20px;
-  }
-  .nav_links li a {
-    transition: all 0.3s ease 0s;
-    font-weight: 500;
-  }
-  .nav_links li:hover {
-    color: #ffb84e;
-  }
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  font-weight: 500;
+}
+
+.nav_links li:hover {
+  color: #ffb84e;
+}
+
 .small_menu {
   display: none;
   height: 0;
   color: transparent;
 }
+
 /* MAIN CONTENT */
 
 /* Large Homepage Graphic */
@@ -158,27 +134,30 @@ header {
   position: relative;
   width: 100%;
 }
-  .main_graphic .graphic_content {
-    position: absolute;
-    width: 100%;
-    top: 30%;
-  }
-  .main_graphic .btn {
-    position: absolute;
-    top: 150%;
-    left: 50%;
-    width: 300px;
-    transform: translate(-50%, -50%);
-    background-color: #ffb84e;
-    color: rgba(36, 37, 42, 1);
-    font-weight: 500;
-    font-size: 20px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-  }
+
+.main_graphic .graphic_content {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+}
+
+.main_graphic .btn {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  background-color: #ffb84e;
+  color: rgba(36, 37, 42, 1);
+  font-weight: 500;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
 .main_heading {
   position: relative;
   font-family: "roboto", sans-serif;
@@ -193,6 +172,7 @@ header {
   background-color: rgba(36, 37, 42, 1);
   color: #edf0f1;
 }
+
 /* Headings for pages*/
 .page_heading {
   text-align: center;
@@ -211,13 +191,16 @@ header {
   cursor: pointer;
   font-weight: 500;
 }
-  .fom_btn:hover {
-    text-decoration: underline;
-  }
+
+.fom_btn:hover {
+  text-decoration: underline;
+}
+
 .quarter {
   width: 100%;
   text-align: left;
 }
+
 /* FOOD MENU */
 
 #three_img {
@@ -225,60 +208,73 @@ header {
   width: 100%;
   height: auto;
 }
+
 .img_3rd {
   width: 30%;
   height: auto;
   margin-left: 2%;
 }
+
 #menu_list {
   text-align: center;
   background-color: rgba(255, 184, 78, 0.5);
 }
-  #menu_list li {
-    font-size: 23px;
-    display: inline-block;
-    padding: 10px;
-    cursor: pointer;
-    list-style: none;
-  }
-  #menu_list li:hover {
-    background-color: white;
-  }
+
+#menu_list li {
+  font-size: 23px;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+#menu_list li:hover {
+  background-color: white;
+}
+
 .food_container {
   text-align: center;
   padding-top: 20px;
 }
+
 .beverages-heading-left,
 .beverages-heading-right {
   text-align: left;
   margin-left: 10%;
   font-size: 20px;
 }
+
 .beverages-left,
 .beverages-right {
   width: 80%;
   margin-left: 10%;
   padding-bottom: 20px;
 }
+
 .cost {
   color: #ffb84e;
   font-weight: 500;
   text-decoration: underline;
 }
+
 td,
 th {
   text-align: left;
   font-size: 20px;
 }
-.contact{
+
+.contact {
   width: 100%;
 }
-.contact th{
+
+.contact th {
   color: #ffb84e;
 }
-.contact td{
+
+.contact td {
   margin-bottom: 10px;
 }
+
 /* Footer Content */
 .footer {
   color: #edf0f1;
@@ -288,33 +284,41 @@ th {
   font-size: 13px;
   margin-top: auto;
 }
-  .footer li {
-    display: inline-block;
-    font-size: 13px;
-    padding: 10px;
-    list-style: none;
-    color: #edf0f1;
-  }
-  .footer li:hover {
-    color: #ffb84e;
-  }
-  .footer p {
-    font-size: 13px;
-  }
+
+.footer li {
+  display: inline-block;
+  font-size: 13px;
+  padding: 10px;
+  list-style: none;
+  color: #edf0f1;
+}
+
+.footer li:hover {
+  color: #ffb84e;
+}
+
+.footer p {
+  font-size: 13px;
+}
+
 /* Footer Pages styling*/
 #center_container {
   width: 60%;
   margin-left: 20%;
 }
-  #center_container li {
-    font-size: 20px;
-  }
-  .indent {
-    margin-left: 30px;
-  }
+
+#center_container li {
+  font-size: 20px;
+}
+
+.indent {
+  margin-left: 30px;
+}
+
 .link:hover {
   color: #ffb84e;
 }
+
 #appetizers,
 #mains,
 #dessert,
@@ -326,15 +330,18 @@ th {
 
 /* --------------------------------------------------SCREEN SIZE CHANGE-------------- */
 @media (min-width: 901px) {
+
   .w3-col.m6,
   .w3-half {
     width: 49.99999%;
   }
 }
+
 @media screen and (max-width: 900px) {
   header {
     padding-left: 2%;
   }
+
   .hamburger {
     display: block;
     position: absolute;
@@ -342,6 +349,7 @@ th {
     top: 20px;
     max-height: 30px;
   }
+
   .small_menu {
     width: 100%;
     height: 50px;
@@ -350,115 +358,145 @@ th {
     background-color: #24252a;
     padding-left: 3vw;
   }
+
   .small_menu:hover {
     color: #ffb84e;
   }
+
   p {
     font-size: 3vw;
   }
+
   .main_heading {
     font-size: 4vw;
   }
+
   #main_img {
     content: url("../images/Restaurant_Main_Image_900.jpg");
   }
+
   #book_btn {
     width: 30vw;
     font-size: 3vw;
   }
+
   .w3-half {
     width: 100%;
   }
+
   .half_page {
     width: 100%;
     left: 0%;
     text-align: center;
   }
+
   .beverages-heading-left,
   .beverages-heading-right {
     text-align: center;
     width: 100%;
     margin-left: 0%;
   }
+
   .beverages-left,
   .beverages-right {
     width: 96%;
     text-align: left;
     margin-left: 2%;
   }
+
   .spacer_large {
     display: none;
   }
+
   #menu_list li {
     font-size: 3vw;
   }
+
   .quarter {
     text-align: center;
   }
-    .quarter p {
-      font-size: 3vw;
-    }
+
+  .quarter p {
+    font-size: 3vw;
+  }
+
   .nav_links {
     display: none;
   }
+
   #privacy_container h1 {
     font-size: 5vw;
   }
+
   #privacy_container h2 {
     font-size: 4vw;
   }
+
   #privacy_container li {
     font-size: 3vw;
   }
-  #center_container{
+
+  #center_container {
     width: 96%;
     margin-left: 2%;
   }
 }
+
 @media screen and (max-width: 900px) {
-#main_img {
-  content: url("../images/Restaurant_Main_Image_900.jpg");
-}
-#fish_img{
-  content: url("../images/Fish_Dish_800Wc.jpg");
-}
-#appetizer_img{
-  content: url("../images/salmon_appetizer_300W_80.jpg");
-}
-#mains_img{
-  content: url("../images/lamb_steak_300W_80.jpg");
-}
-#dessert_img{
-  content: url("../images/ice-cream_dessert_300W_80.jpg");
-}
-}
-@media screen and (max-width: 600px) {
-  #main_img{
-    content: url("../images/Restaurant_Main_Image_600W_80.jpg");
+  #main_img {
+    content: url("../images/Restaurant_Main_Image_900.jpg");
   }
-  #fish_img{
-    content: url("../images/Fish_Dish_600W_80.jpg");
+
+  #fish_img {
+    content: url("../images/Fish_Dish_800Wc.jpg");
   }
-  #appetizer_img{
+
+  #appetizer_img {
     content: url("../images/salmon_appetizer_300W_80.jpg");
   }
-  #mains_img{
+
+  #mains_img {
+    content: url("../images/lamb_steak_300W_80.jpg");
+  }
+
+  #dessert_img {
+    content: url("../images/ice-cream_dessert_300W_80.jpg");
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #main_img {
+    content: url("../images/Restaurant_Main_Image_600W_80.jpg");
+  }
+
+  #fish_img {
+    content: url("../images/Fish_Dish_600W_80.jpg");
+  }
+
+  #appetizer_img {
+    content: url("../images/salmon_appetizer_300W_80.jpg");
+  }
+
+  #mains_img {
     content: url("../images/lamb_steak_200W_80.jpg");
   }
-  #dessert_img{
+
+  #dessert_img {
     content: url("../images/ice-cream_dessert_200W_80.jpg");
   }
 }
+
 @media screen and (max-width: 450px) {
-  #main_img{
+  #main_img {
     content: url("../images/Restaurant_Main_Image_450W_80.jpg");
   }
-  #fish_img{
+
+  #fish_img {
     content: url("../images/Fish_Dish_450W_80.jpg");
   }
+
   #book_btn {
     width: 32vw;
     font-size: 3vw;
   }
 }
-
